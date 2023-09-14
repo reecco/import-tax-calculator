@@ -9,7 +9,7 @@ defineProps<{ class: string }>();
     :class="$props.class"
   >
     <p
-      class="text-lg"
+      class="text-lg text-center"
     >&copy; {{ new Date().getUTCFullYear() }}
     </p>
   </footer>

@@ -6,16 +6,16 @@ import Footer from "./components/Footer.vue";
 
 <template>
   <div
-    class="flex flex-col justify-center h-[100vh]"
+    class="flex flex-col justify-center min-h-full"
   >
     <Navbar 
-      class="p-[30px] bg-[#f3f3f3] border-[#dedddd] border-x-0 border-t-0 border-b-[1px] border-solid" 
+      class="flex justify-between items-center py-[5px] xl:py-[10px] px-[60px] bg-[#f3f3f3] border-[#dedddd] border-x-0 border-t-0 border-b-[1px] border-solid" 
     />
     <Calculate 
-      class="h-full flex justify-center items-center"
+      class="flex justify-center items-center flex-1 min-h-full p-[20px]"
     />
     <Footer 
-      class="h-[10%] flex flex-col justify-center items-center"
+      class="flex-shrink-0 left-0 bottom-0 w-full"
     />
   </div>
 </template>
